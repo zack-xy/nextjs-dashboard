@@ -1,0 +1,2 @@
+packages:
+  - 'packages/*'   # 匹配 packages 下的所有子目录
