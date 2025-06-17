@@ -16,6 +16,7 @@ export type Customer = {
   image_url: string;
 };
 
+// 发票的类型
 export type Invoice = {
   id: string;
   customer_id: string;
