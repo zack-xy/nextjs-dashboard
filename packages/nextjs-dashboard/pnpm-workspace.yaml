@@ -1,0 +1,8 @@
+packages:
+  # 包含 app/ 下的 Next.js 应用（如主应用）
+  - 'app/*'
+  # 包含 packages/ 下的共享库（如 UI 组件、工具函数）
+  - 'packages/**'
+  # 排除测试和演示目录
+  - '!&zwnj;**/test/**&zwnj;'
+  - '!&zwnj;**/demo/**&zwnj;'
