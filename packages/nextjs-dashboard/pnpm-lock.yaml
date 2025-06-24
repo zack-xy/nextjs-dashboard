@@ -52,7 +52,7 @@ importers:
         specifier: ^10.0.5
         version: 10.0.5(react@19.1.0)
       zod:
-        specifier: ^3.25.17
+        specifier: ^3.25.67
         version: 3.25.67
     devDependencies:
       '@types/bcrypt':

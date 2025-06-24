@@ -18,6 +18,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
     } else {
       params.delete('query');
     }
+    console.log("我正在查找>>>", term)
     replace(`${pathname}?${params.toString()}`)
   }, 300)
 
