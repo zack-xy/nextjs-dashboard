@@ -6,6 +6,11 @@ import { lusitana } from '@/app/ui/fonts';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 import { fetchInvoicesPages } from "@/app/lib/data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "这个是发票页面"
+}
  
 // searchParams是框架预定义的，用于接收 URL 查询参数
 export default async function Page(props: {
